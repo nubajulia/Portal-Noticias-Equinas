@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => {
             console.error("Error cargando la noticia:", error);
-            document.getElementById("noticiaCompleta").innerHTML = `<p>Error al cargar la noticia. Inténtalo más tarde.</p>`;
+            document.getElementById("noticiaCompleta").innerHTML = `<p>Error al cargar la noticia. Inténtalo más tarde. Comprueba que la base de datos esta activa.</p>`;
         });
 });
 

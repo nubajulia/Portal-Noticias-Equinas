@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticias Recientes</title>
-    <link rel="stylesheet" href="/pages/noticiaCompleta/noticiaCompleta.css">
+    <title>Noticia por Categoría</title>
+    <link rel="stylesheet" href="/pages/categoriaNoticia/categoriaNoticia.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
     <link rel="icon" type="image/png" href="../../img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <script src="noticiaCompleta.js"></script>
+    <script src="categoriaNoticia.js"></script>
     <header>
         <div id="inicio" class="header-container">
             <a href="/index.html"><img src="../../img/logo.png" alt="Logo" class="logo"></a>
@@ -31,7 +31,25 @@
             </div>
         </nav>
     </header>
-
+    <main>
+        <section id="categorias">
+            <h2 class="category-title">Explora por Categorías</h2>
+            <div class="category-menu">
+                <a href="/pages/categoriaNoticia/categoriaNoticia.html?categoria=proximasCompeticiones" class="category-item">Competiciones</a>
+                <a href="/pages/categoriaNoticia/categoriaNoticia.html?categoria=cuidadoCaballo" class="category-item">Cuidado del Caballo</a>
+                <a href="/pages/categoriaNoticia/categoriaNoticia.html?categoria=juegosOlimpicos" class="category-item">Juegos Olimpicos Ecuestre</a>
+                <a href="/pages/categoriaNoticia/categoriaNoticia.html?categoria=historia" class="category-item">Historia</a>
+                <a href="/pages/categoriaNoticia/categoriaNoticia.html?categoria=saludBienestar" class="category-item">Salud y Bienestar</a>
+                <a href="/pages/categoriaNoticia/categoriaNoticia.html?categoria=razasCaballos" class="category-item">Razas de Caballos</a>
+            </div>
+        </section>  
+    
+        <h2 class="news-title">Noticia por categoría</h2>
+    
+        <section id="noticiasRecientes" class="news-container">
+            <div class="news-grid"></div>
+        </section>
+    </main>
     <footer>
         <div class="footer-container">
             <div class="footer-section">

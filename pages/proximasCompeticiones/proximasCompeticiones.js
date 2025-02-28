@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <p><strong>Fecha:</strong> ${competicion.fecha}</p>
                         <p><strong>Ubicación:</strong> ${competicion.ubicacion}</p>
 
-                        <p>${competicion.descripcion}</p>
+                        <p>${competicion.descripcionLarga}</p>
 
                         <!-- Botones para compartir -->
                         <div class="share-buttons">
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => {
             console.error("Error cargando la competicion:", error);
-            document.getElementById("proximasCompeticiones").innerHTML = `<p>Error al cargar la competicion. Inténtalo más tarde.</p>`;
+            document.getElementById("proximasCompeticiones").innerHTML = `<p>Error al cargar la competicion. Inténtalo más tarde. Comprueba que la base de datos esta activa.</p>`;
         });
 });
 

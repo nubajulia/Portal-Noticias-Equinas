@@ -59,26 +59,178 @@
         {
             "id": 1,
             "titulo": "Gran Premio Internacional",
-            "fecha": "2025-03-15",
+            "autor": "Paula Pérez",
+            "fechaPublicacion": "2025-03-15",
             "ubicacion": "Madrid, España",
-            "descripcion": "El Gran Premio Internacional es uno de los eventos más esperados del calendario ecuestre. En esta edición, se reunirán los jinetes más destacados de todo el mundo, compitiendo en un circuito desafiante que pondrá a prueba tanto su habilidad como la resistencia de sus caballos. Se espera una gran asistencia de público y la cobertura de medios especializados en deportes ecuestres.",
+            "descripcionCorta": "El evento más esperado del año con los mejores jinetes del mundo.",
+            "descripcionLarga": "El Gran Premio Internacional es uno de los eventos más esperados del calendario ecuestre. En esta edición, se reunirán los jinetes más destacados de todo el mundo, compitiendo en un circuito desafiante que pondrá a prueba tanto su habilidad como la resistencia de sus caballos. Se espera una gran asistencia de público y la cobertura de medios especializados en deportes ecuestres.",
             "imagen": "/img/competicion1.jpg"
         },
         {
             "id": 2,
             "titulo": "Copa Nacional de Salto",
-            "fecha": "2025-04-02",
+            "autor": "Sofia Ruiz",
+            "fechaPublicacion": "2025-04-02",
             "ubicacion": "Buenos Aires, Argentina",
-            "descripcion": "La Copa Nacional de Salto es una de las competencias más importantes de la región. Contará con la participación de los mejores jinetes nacionales e internacionales en una serie de pruebas de salto de obstáculos. Este evento es clave en la clasificación para torneos internacionales y una oportunidad para que jóvenes talentos demuestren su potencial en la pista.",
+            "descripcionCorta": "Una competencia clave para los mejores jinetes de la región.",
+            "descripcionLarga": "La Copa Nacional de Salto es una de las competencias más importantes de la región. Contará con la participación de los mejores jinetes nacionales e internacionales en una serie de pruebas de salto de obstáculos. Este evento es clave en la clasificación para torneos internacionales y una oportunidad para que jóvenes talentos demuestren su potencial en la pista.",
             "imagen": "/img/competicion2.png"
         },
         {
             "id": 3,
             "titulo": "Derby Internacional",
-            "fecha": "2025-05-20",
+            "autor": "Marc Gonzalez",
+            "fechaPublicacion": "2025-05-20",
             "ubicacion": "Londres, Reino Unido",
-            "descripcion": "El Derby Internacional es una de las pruebas más exigentes del circuito ecuestre. Este evento reúne a jinetes experimentados que deben demostrar su destreza en un recorrido lleno de obstáculos de gran dificultad. Además del prestigio que otorga la victoria, el torneo ofrece un importante premio en metálico y puntos para el ranking mundial.",
+            "descripcionCorta": "Un desafío de resistencia y destreza para los jinetes más experimentados.",
+            "descripcionLarga": "El Derby Internacional es una de las pruebas más exigentes del circuito ecuestre. Este evento reúne a jinetes experimentados que deben demostrar su destreza en un recorrido lleno de obstáculos de gran dificultad. Además del prestigio que otorga la victoria, el torneo ofrece un importante premio en metálico y puntos para el ranking mundial.",
             "imagen": "/img/competicion3.jpg"
+        }
+    ],
+    "cuidadoCaballo":[
+        {
+            "id": 1,
+            "titulo": "Mejores prácticas para el cuidado del casco del caballo",
+            "autor": "Elena López",
+            "fechaPublicacion": "2025-02-15",
+            "descripcionCorta": "Mantén los cascos de tu caballo en perfecto estado.",
+            "descripcionLarga": "Los cascos de los caballos requieren un mantenimiento constante para prevenir infecciones y mejorar el rendimiento del animal. Expertos recomiendan limpiezas regulares, aplicación de aceites naturales y revisiones veterinarias periódicas.",
+            "imagen": "https://ampascachi.com/images/blog/todo-sobre-caballos/cascos-del-caballo/casco-limpio.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Nuevas recomendaciones para el bienestar equino en competiciones",
+            "autor": "Laura Martínez",
+            "fechaPublicacion": "2025-02-27",
+            "descripcionCorta": "Actualización de directrices para garantizar la salud de los caballos en eventos deportivos.",
+            "descripcionLarga": "La Real Federación Hípica Española ha publicado nuevas directrices enfocadas en mejorar el bienestar de los caballos durante las competiciones. Estas incluyen pautas sobre el manejo adecuado, tiempos de descanso y cuidados post-competición para asegurar la salud óptima de los equinos.",
+            "imagen": "https://www.animalshealth.es/fileuploads/user/Imagenes/2024/08/2.%20Jinetes%20Seleccion%20Espanola%20veterinarios.jpeg"
+        },
+        {
+            "id": 3,
+            "titulo": "Iniciativa solidaria: estudiantes crean videos educativos sobre manejo equino para Gambia",
+            "autor": "Pedro Sánchez",
+            "fechaPublicacion": "2025-02-20",
+            "descripcionCorta": "Proyecto educativo busca mejorar el cuidado de caballos y burros en África.",
+            "descripcionLarga": "Estudiantes de Veterinaria de la Universidad CEU Cardenal Herrera han desarrollado una serie de videos instructivos destinados a formar a voluntarios en Gambia sobre el manejo y cuidado adecuado de caballos y burros. Esta iniciativa, en colaboración con la ONG Gambia Horse and Donkey Trust, busca mejorar la salud y el bienestar de estos animales en comunidades rurales.",
+            "imagen": "https://www.uchceu.es/img/nuevo-alumno/campus/valencia/veterinaria-valencia-slide01.jpg.webp"
+        }
+    ],
+    "juegosOlimpicos":[
+        {
+            "id": 1,
+            "titulo": "Expectativas para los Juegos Olímpicos Ecuestres 2025",
+            "autor": "Carlos Ramírez",
+            "fechaPublicacion": "2025-02-10",
+            "descripcionCorta": "Grandes jinetes se preparan para la gran competencia.",
+            "descripcionLarga": "Los Juegos Olímpicos Ecuestres de 2025 prometen ser uno de los eventos más espectaculares del año. Jinetes de todo el mundo se preparan intensamente para las pruebas de salto, doma y cross country.",
+            "imagen": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w2440/f_auto/primary/k7hetb7hl6t92hhz9c1a"
+        },
+        {
+            "id": 2,
+            "titulo": "Definidos los binomios de salto ecuestre para París 2024",
+            "autor": "Redacción CONADE",
+            "fechaPublicacion": "2024-07-05",
+            "descripcionCorta": "Se anuncian los jinetes y caballos que representarán al país en los próximos Juegos Olímpicos.",
+            "descripcionLarga": "El equipo nacional de salto ecuestre ha sido conformado para participar en los Juegos Olímpicos de París 2024. Integrado por tres jinetes titulares y uno de reserva, el conjunto se prepara para competir en las instalaciones del Palacio de Versalles, sede de las competencias ecuestres durante el evento olímpico.",
+            "imagen": "https://www.gob.mx/cms/uploads/article/main_image/147150/Carlos_Hank_Guerreiro_Mexico.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "Equipo olímpico de salto ecuestre cierra preparación en Bélgica",
+            "autor": "Redacción CONADE",
+            "fechaPublicacion": "2024-07-10",
+            "descripcionCorta": "El equipo nacional afina detalles finales antes de los Juegos Olímpicos de París 2024.",
+            "descripcionLarga": "El equipo olímpico de salto ecuestre ha llegado a Bélgica para realizar la última fase de su preparación de cara a los Juegos Olímpicos de París 2024. Durante su estancia, los jinetes y sus caballos participarán en competencias locales y entrenamientos especializados para asegurar un desempeño óptimo en las pruebas olímpicas.",
+            "imagen": "https://www.gob.mx/cms/uploads/image/file/911268/Eugenio_Garza_P_rez_en_el_Premio_CHIO_Acachen._Cortes_a.jpg"
+        }
+
+    ],
+    "historia":[
+        {
+            "id": 1,
+            "titulo": "El papel de los caballos en la historia de la humanidad",
+            "autor": "Andrés Gutiérrez",
+            "fechaPublicacion": "2025-02-05",
+            "descripcionCorta": "Desde la antigüedad hasta la actualidad, los caballos han sido fundamentales.",
+            "descripcionLarga": "Los caballos han sido utilizados en la guerra, el transporte y la agricultura durante siglos. Descubre cómo su relación con los humanos ha evolucionado a lo largo de la historia.",
+            "imagen": "https://anccemex.com/nuevo/wp-content/uploads/2020/08/historia2.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Los caballos en las grandes civilizaciones antiguas",
+            "autor": "Mariana López",
+            "fechaPublicacion": "2025-01-28",
+            "descripcionCorta": "Egipcios, romanos y mongoles dependieron de los caballos para su expansión.",
+            "descripcionLarga": "Desde los carros de guerra egipcios hasta la caballería romana y el poderoso ejército mongol de Genghis Khan, los caballos jugaron un papel clave en la conquista y expansión de civilizaciones.",
+            "imagen": "https://www.ociocaballo.com/wp-content/uploads/2020/05/articulo_049.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "La domesticación del caballo: un antes y un después en la historia",
+            "autor": "Ricardo Fernández",
+            "fechaPublicacion": "2025-01-15",
+            "descripcionCorta": "El momento en que el hombre y el caballo unieron sus caminos.",
+            "descripcionLarga": "Hace aproximadamente 5,500 años, los humanos domesticaron por primera vez a los caballos en las estepas euroasiáticas, revolucionando el transporte, la guerra y la economía de las civilizaciones antiguas.",
+            "imagen": "https://www.equisens.es/wp-content/uploads/2018/05/equisens-caballo-estepa-1024x683.jpg"
+        }
+    ],
+    "saludBienestar":[
+        {
+            "id": 1,
+            "titulo": "Beneficios terapéuticos de la equinoterapia",
+            "autor": "Marina Torres",
+            "fechaPublicacion": "2025-01-30",
+            "descripcionCorta": "La equinoterapia ayuda a personas con diversas condiciones de salud.",
+            "descripcionLarga": "Estudios han demostrado que la equinoterapia es efectiva para mejorar el bienestar emocional y físico en personas con autismo, ansiedad y lesiones físicas.",
+            "imagen": "https://www.criarconsentidocomun.com/wp-content/uploads/2022/03/equinoterapia-beneficios-para-ninos-con-trastornos-conducta-desarrollo-1-scaled.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Jerez acoge congreso sobre la relación saludable entre humanos y caballos",
+            "autor": "Redacción Radio Jerez",
+            "fechaPublicacion": "2024-10-29",
+            "descripcionCorta": "El IV Congreso AINISE 2024 se centrará en el bienestar humano y equino.",
+            "descripcionLarga": "Los días 1 y 2 de noviembre, Jerez será sede del IV Congreso AINISE 2024 'Bienestar Humano-Bienestar Equino'. El evento, que se llevará a cabo en la Yeguada Cartuja Hierro del Bocado, abordará la importancia de una relación saludable entre humanos y caballos, contando con la participación de expertos que ofrecerán ponencias y talleres.",
+            "imagen": "https://cadenaser.com/resizer/v2/PTQSQ6KSRRCX3BIFX5ANJXFSBM.jpg?auth=2c2b6f6b4871c25d5b0e5be7a278df15b8c034ce58df06e1f85dceaca02938d9&quality=70&width=1200&height=900&smart=true"
+        },
+        {
+            "id": 3,
+            "titulo": "Iniciativa 'Caballos que educan' para jóvenes con diversidad funcional en San Agustín del Guadalix",
+            "autor": "Redacción SER Madrid Norte",
+            "fechaPublicacion": "2024-10-01",
+            "descripcionCorta": "Programa gratuito de equinoterapia para jóvenes con necesidades especiales.",
+            "descripcionLarga": "El municipio de San Agustín del Guadalix ha lanzado la iniciativa 'Caballos que educan', dirigida a jóvenes con diversidad funcional. A partir del 10 de octubre, se ofrecerán sesiones gratuitas dos veces al mes en la hípica El Requiebro, con el objetivo de ayudar a superar dificultades físicas, emocionales y de aprendizaje mediante la interacción con caballos.",
+            "imagen": "https://lh3.googleusercontent.com/proxy/NLtCHqLXfkll-kEt9PzuusMOm8_tUOkQq5uEjYPj4s9dzP2U9IX_1ZpoJNJGaRQqiMyH-b92u9rSZN4hb2kYs1rF_mC5QelIF5IWYMW_DFBjB1gH_TaV2YnMTMqQ3tZ_-YUIAAImoxc13w"
+        }
+    ],
+    "razasCaballos":[
+        {
+            "id": 1,
+            "titulo": "Las razas de caballos más rápidas del mundo",
+            "autor": "Fernando Silva",
+            "fechaPublicacion": "2025-01-25",
+            "descripcionCorta": "Conoce las razas más veloces utilizadas en competiciones.",
+            "descripcionLarga": "El Pura Sangre Inglés es conocido como el caballo más rápido en carreras cortas, mientras que el Árabe destaca en resistencia. Descubre qué otras razas dominan el mundo de la velocidad ecuestre.",
+            "imagen": "https://cdn.ehorses.media/image/blur/big/pura-sangre-ingles-semental-negro-caballos-de-doma-clasica-walsrode_02c591cd-3597-465a-aa8d-b5c11c145c0a.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Las razas de caballos más fuertes y grandes del mundo",
+            "autor": "Laura Martínez",
+            "fechaPublicacion": "2025-01-20",
+            "descripcionCorta": "Descubre las razas equinas destacadas por su tamaño y fuerza.",
+            "descripcionLarga": "Entre las razas más imponentes se encuentran el Shire, conocido por su gran altura y capacidad de tiro; el Clydesdale, famoso por su fuerza y elegancia; y el Percherón, apreciado por su musculatura y resistencia en trabajos pesados.",
+            "imagen": "https://www.segurosequitacion.com/wp-content/uploads/2022/05/caballo-shire.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "Las razas de caballos más inteligentes y versátiles",
+            "autor": "Sofía Gómez",
+            "fechaPublicacion": "2025-01-18",
+            "descripcionCorta": "Conoce las razas equinas destacadas por su inteligencia y adaptabilidad.",
+            "descripcionLarga": "El caballo Andaluz, también conocido como Pura Raza Española, es valorado por su versatilidad en disciplinas como la doma clásica y el trabajo en campo. Por otro lado, el caballo Árabe destaca por su inteligencia y resistencia, siendo una de las razas más antiguas y puras.",
+            "imagen": "https://blog.terranea.es/wp-content/uploads/2017/05/CABALLO-ANDALUZ-BLANCO.jpg"
         }
     ]
 }
