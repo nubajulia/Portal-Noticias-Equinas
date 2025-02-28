@@ -54,5 +54,31 @@
             "descripcionLarga": "Con el inicio de la temporada de carreras, los entrenadores y jinetes afinan sus estrategias de preparación. Desde regímenes de entrenamiento hasta programas de alimentación específicos, cada detalle es clave para asegurar un buen desempeño en las competiciones. Descubre cómo los mejores equipos están preparando a sus caballos para la temporada 2025.",
             "imagen": "/img/noticia9.jpg"
         }
+    ],
+    "proximasCompeticiones": [
+        {
+            "id": 1,
+            "titulo": "Gran Premio Internacional",
+            "fecha": "2025-03-15",
+            "ubicacion": "Madrid, España",
+            "descripcion": "El Gran Premio Internacional es uno de los eventos más esperados del calendario ecuestre. En esta edición, se reunirán los jinetes más destacados de todo el mundo, compitiendo en un circuito desafiante que pondrá a prueba tanto su habilidad como la resistencia de sus caballos. Se espera una gran asistencia de público y la cobertura de medios especializados en deportes ecuestres.",
+            "imagen": "/img/competicion1.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Copa Nacional de Salto",
+            "fecha": "2025-04-02",
+            "ubicacion": "Buenos Aires, Argentina",
+            "descripcion": "La Copa Nacional de Salto es una de las competencias más importantes de la región. Contará con la participación de los mejores jinetes nacionales e internacionales en una serie de pruebas de salto de obstáculos. Este evento es clave en la clasificación para torneos internacionales y una oportunidad para que jóvenes talentos demuestren su potencial en la pista.",
+            "imagen": "/img/competicion2.png"
+        },
+        {
+            "id": 3,
+            "titulo": "Derby Internacional",
+            "fecha": "2025-05-20",
+            "ubicacion": "Londres, Reino Unido",
+            "descripcion": "El Derby Internacional es una de las pruebas más exigentes del circuito ecuestre. Este evento reúne a jinetes experimentados que deben demostrar su destreza en un recorrido lleno de obstáculos de gran dificultad. Además del prestigio que otorga la victoria, el torneo ofrece un importante premio en metálico y puntos para el ranking mundial.",
+            "imagen": "/img/competicion3.jpg"
+        }
     ]
 }
