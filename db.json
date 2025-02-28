@@ -7,7 +7,52 @@
             "fechaPublicacion": "2025-02-28",
             "descripcionCorta": "Un nuevo talento se corona en la escena ecuestre internacional.",
             "descripcionLarga": "En un evento sin precedentes, un joven jinete logró imponerse en una de las competencias ecuestres más prestigiosas del mundo. Con una actuación impecable, demostró su gran habilidad y conexión con su caballo, ganándose el reconocimiento de jueces y espectadores. Este triunfo marca el inicio de una prometedora carrera en el ámbito ecuestre.",
-            "imagen": "img/noticia4.avif"
+            "imagen": "/img/noticia4.avif"
+        },
+        {
+            "id": 2,
+            "titulo": "Alimentación ideal para caballos deportivos",
+            "autor": "Carlos Méndez",
+            "fechaPublicacion": "2025-02-27",
+            "descripcionCorta": "Expertos revelan la mejor dieta para mejorar el rendimiento.",
+            "descripcionLarga": "La alimentación de los caballos deportivos juega un papel crucial en su rendimiento. Veterinarios y expertos en nutrición equina han revelado cuáles son los alimentos esenciales para mantener a los caballos en óptimas condiciones. Desde suplementos hasta una dieta equilibrada, esta información puede marcar la diferencia en competiciones de alto nivel.",
+            "imagen": "/img/noticia5.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "Nueva normativa en competiciones ecuestres",
+            "autor": "Lucía Rodríguez",
+            "fechaPublicacion": "2025-02-25",
+            "descripcionCorta": "Cambios importantes en las reglas de los torneos internacionales.",
+            "descripcionLarga": "Las federaciones ecuestres han anunciado nuevas normativas para las competiciones internacionales. Estos cambios buscan garantizar mayor seguridad tanto para los jinetes como para los caballos. Además, se han establecido reglas más estrictas en cuanto a los métodos de entrenamiento y el uso de equipamiento.",
+            "imagen": "/img/noticia6.jpg"
+        },
+        {
+            "id": 4,
+            "titulo": "El papel de los caballos en la terapia asistida",
+            "autor": "Ana Beltrán",
+            "fechaPublicacion": "2025-02-23",
+            "descripcionCorta": "Cómo los caballos están ayudando en tratamientos de salud mental.",
+            "descripcionLarga": "La equinoterapia ha demostrado ser una herramienta valiosa en el tratamiento de diversas condiciones psicológicas y físicas. Profesionales de la salud mental han resaltado los beneficios de esta práctica, que ayuda a mejorar la confianza, reducir la ansiedad y fortalecer la comunicación en personas con dificultades emocionales.",
+            "imagen": "/img/noticia7.jpg"
+        },
+        {
+            "id": 5,
+            "titulo": "Equipamiento ecuestre: Innovaciones del año",
+            "autor": "Roberto Sánchez",
+            "fechaPublicacion": "2025-02-20",
+            "descripcionCorta": "Las últimas tecnologías y equipamientos para jinetes y caballos.",
+            "descripcionLarga": "El mundo ecuestre no se queda atrás en cuanto a tecnología. Este año se han presentado diversas innovaciones en equipamiento para jinetes y caballos, incluyendo monturas ergonómicas, sensores de monitoreo para la salud equina y cascos con mayor protección. Conoce cuáles son los avances más destacados y cómo pueden mejorar el rendimiento en la pista.",
+            "imagen": "/img/noticia8.jpg"
+        },
+        {
+            "id": 6,
+            "titulo": "Caballos de carreras: Preparación para la temporada",
+            "autor": "Fernando Pérez",
+            "fechaPublicacion": "2025-02-18",
+            "descripcionCorta": "Cómo entrenadores y jinetes se preparan para las competencias.",
+            "descripcionLarga": "Con el inicio de la temporada de carreras, los entrenadores y jinetes afinan sus estrategias de preparación. Desde regímenes de entrenamiento hasta programas de alimentación específicos, cada detalle es clave para asegurar un buen desempeño en las competiciones. Descubre cómo los mejores equipos están preparando a sus caballos para la temporada 2025.",
+            "imagen": "/img/noticia9.jpg"
         }
     ]
 }
