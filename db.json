@@ -1,0 +1,13 @@
+{
+    "noticiasRecientes": [
+        {
+            "id": 1,
+            "titulo": "Jinete joven gana importante competencia",
+            "autor": "María Fernández",
+            "fechaPublicacion": "2025-02-28",
+            "descripcionCorta": "Un nuevo talento se corona en la escena ecuestre internacional.",
+            "descripcionLarga": "En un evento sin precedentes, un joven jinete logró imponerse en una de las competencias ecuestres más prestigiosas del mundo. Con una actuación impecable, demostró su gran habilidad y conexión con su caballo, ganándose el reconocimiento de jueces y espectadores. Este triunfo marca el inicio de una prometedora carrera en el ámbito ecuestre.",
+            "imagen": "img/noticia4.avif"
+        }
+    ]
+}

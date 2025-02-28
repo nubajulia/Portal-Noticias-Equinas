@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias Equinas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div id="inicio" class="header-container">
+            <a href="/index.html"><img src="../img/logo.png" alt="Logo" class="logo"></a>
+            <h1>Portal de Noticias Equinas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticiasRecientes">Noticias Recientes</a></li>
+                <li><a href="#caballosVenta">Caballos en venta</a></li>
+                <li><a href="#proximas-competiciones">Competiciones</a></li>
+                <li><a href="#suscribete">Suscríbete</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar noticias..." onkeyup="buscarNoticias()">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="categorias">
+            <h2 class="category-title">Explora por Categorías</h2>
+            <div class="category-menu">
+                <a href="#" class="category-item">Competiciones</a>
+                <a href="#" class="category-item">Cuidado del Caballo</a>
+                <a href="#" class="category-item">Juegos Olimpicos Ecuestre</a>
+                <a href="#" class="category-item">Historia</a>
+                <a href="#" class="category-item">Salud y Bienestar</a>
+                <a href="#" class="category-item">Razas de Caballos</a>
+            </div>
+        </section>
+        <section id="destacadas">
+            <h2 class="news-title">Noticias Destacadas</h2>
+            <div id="carouselNoticias" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/noticia1.jpeg" class="d-block w-100" alt="Noticia 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Nuevo récord en salto ecuestre</h5>
+                            <p>Un jinete logra una hazaña impresionante en el campeonato mundial.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/noticia2.jpg" class="d-block w-100" alt="Noticia 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Consejos para el cuidado del caballo en invierno</h5>
+                            <p>Expertos comparten recomendaciones esenciales para el bienestar equino.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/noticia3.webp" class="d-block w-100" alt="Noticia 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>La historia del hipismo en los Juegos Olímpicos</h5>
+                            <p>Un recorrido por la evolución de esta disciplina a lo largo de los años.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticias" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticias" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <h2 class="news-title">Noticias Recientes</h2>
+        <section id="noticiasRecientes" class="news-container">
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="img/noticia4.avif" alt="Noticia 4">
+                    <div class="news-card-body">
+                        <h5>Jinete joven gana importante competencia</h5>
+                        <p>Un nuevo talento se corona en la escena ecuestre internacional.</p>
+                        <a href="pages/noticiaCompleta/noticiaCompleta.html?id=1" class="btn-news">Ver noticia completa</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="img/noticia5.jpg" alt="Noticia 5">
+                    <div class="news-card-body">
+                        <h5>Alimentación ideal para caballos deportivos</h5>
+                        <p>Expertos revelan la mejor dieta para mejorar el rendimiento.</p>
+                        <a href="#" class="btn-news">Ver noticia completa</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="img/noticia6.jpg" alt="Noticia 6">
+                    <div class="news-card-body">
+                        <h5>Nueva normativa en competiciones ecuestres</h5>
+                        <p>Cambios importantes en las reglas de los torneos internacionales.</p>
+                        <a href="#" class="btn-news">Ver noticia completa</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="img/noticia7.jpg" alt="Noticia 7">
+                    <div class="news-card-body">
+                        <h5>El papel de los caballos en la terapia asistida</h5>
+                        <p>Cómo los caballos están ayudando en tratamientos de salud mental.</p>
+                        <a href="#" class="btn-news">Ver noticia completa</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="img/noticia8.jpg" alt="Noticia 8">
+                    <div class="news-card-body">
+                        <h5>Equipamiento ecuestre: Innovaciones del año</h5>
+                        <p>Las últimas tecnologías y equipamientos para jinetes y caballos.</p>
+                        <a href="#" class="btn-news">Ver noticia completa</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="img/noticia9.jpg" alt="Noticia 9">
+                    <div class="news-card-body">
+                        <h5>Caballos de carreras: Preparación para la temporada</h5>
+                        <p>Cómo entrenadores y jinetes se preparan para las competencias.</p>
+                        <a href="#" class="btn-news">Ver noticia completa</a>
+                    </div>
+                </div>
+            </div>
+            <aside id="caballosVenta" class="sidebar">
+                <h3>Caballos en venta</h3>
+                <a href="https://www.milanuncios.com/venta-de-caballos/pre-526147437.htm"><img src="img/anuncio1.avif" alt="Anuncio 1"></a>
+                <a href="https://www.milanuncios.com/venta-de-caballos/venta-de-caballos-120351051.htm"><img src="img/anuncio2.avif" alt="Anuncio 2"></a>
+                <a href="https://iberianhorses.es/portfolio/caballo-pre-barroco-en-venta/"><img src="img/anuncio3.jpg" alt="Anuncio 3"></a>
+                <a href="https://iberianhorses.es/portfolio/precioso-caballo-pre-de-largas-melenas-en-venta-cod-27307/"><img src="img/anuncio4.jpg" alt="Anuncio 4"></a>
+                <a href="https://www.yeguadalab.com/es/caballos-venta/"><img src="img/anuncio5.jpg" alt="Anuncio 5"></a>
+            </aside>
+        </section>
+        <section id="proximas-competiciones">
+            <h2 class="section-title">Próximas Competiciones Ecuestres</h2>
+            <div class="competitions-grid">
+                <div class="competition-card">
+                    <img src="img/competicion1.jpg" alt="Competición 1">
+                    <div class="competition-info">
+                        <h3>Gran Premio Internacional</h3>
+                        <p><strong>Fecha:</strong> 15 de marzo, 2025</p>
+                        <p><strong>Ubicación:</strong> Madrid, España</p>
+                        <p>El evento más esperado del año con los mejores jinetes del mundo.</p>
+                        <a href="#" class="btn">Más información</a>
+                    </div>
+                </div>
+                <div class="competition-card">
+                    <img src="img/competicion2.png" alt="Competición 2">
+                    <div class="competition-info">
+                        <h3>Copa Nacional de Salto</h3>
+                        <p><strong>Fecha:</strong> 2 de abril, 2025</p>
+                        <p><strong>Ubicación:</strong> Buenos Aires, Argentina</p>
+                        <p>Una competencia clave para los mejores jinetes de la región.</p>
+                        <a href="#" class="btn">Más información</a>
+                    </div>
+                </div>
+                <div class="competition-card">
+                    <img src="img/competicion3.jpg" alt="Competición 3">
+                    <div class="competition-info">
+                        <h3>Derby Internacional</h3>
+                        <p><strong>Fecha:</strong> 20 de mayo, 2025</p>
+                        <p><strong>Ubicación:</strong> Londres, Reino Unido</p>
+                        <p>Un desafío de resistencia y destreza para los jinetes más experimentados.</p>
+                        <a href="#" class="btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Portal de noticias ecuestres con las últimas novedades sobre el mundo de la equitación.</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Enlaces Útiles</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-file-contract"></i> Términos de Uso</a></li>
+                    <li><a href="#"><i class="fa-solid fa-shield-halved"></i> Política de Privacidad</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-media">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+    
+            <div id="suscribete" class="footer-section">
+                <h3>Suscríbete</h3>
+                <p>Recibe las últimas noticias sobre el mundo ecuestre directamente en tu correo.</p>
+                <form>
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2025 - Equinews - Todos los derechos reservados.</p>
+        </div>
+    </footer>    
+</body>
+</html>
