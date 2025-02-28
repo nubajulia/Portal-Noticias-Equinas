@@ -4,7 +4,7 @@ Esta es una aplicación web dedicada a proporcionar noticias, información y act
 
 ### Características Principales
 
-    🎓 **Noticias Recientes:** Últimas novedades sobre jinetes, competiciones y avances en el mundo ecuestre.
+    🎓 Noticias Recientes: Últimas novedades sobre jinetes, competiciones y avances en el mundo ecuestre.
 
     🐎 Cuidado del Caballo: Consejos sobre nutrición, salud y mantenimiento de los caballos.
 
